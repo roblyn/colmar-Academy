@@ -1,0 +1,68 @@
+body {
+    margin:auto 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+h2{
+    color: rgb(45, 42, 42);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 3em;
+}
+.header{
+    display: flex;
+    align-items: center;
+    height: 64px;
+   
+   
+}
+.logo {
+    flex: 50%;
+   display: flex;
+   margin-left:24px;
+}
+
+.navigation{
+    flex: 50%;
+}
+.navigation ul {
+    display: flex;
+}
+.navigation li {
+    margin: 0 16px;
+}
+.banner{
+    background-color: lightgray;
+    padding: 32px 24px;
+    display: flex;
+    align-items: center;
+}
+.image {
+    flex:50%;
+  display: contents;
+  margin-right: 24px;
+}
+
+.image img{
+  width: 60%; 
+}
+.info{
+    padding-left: 24px;
+}
+.info p {
+    font-size: 1.5em;
+    font-weight:lighter;
+    color: rgb(73, 72, 72);
+}
+.button {
+    padding: 8px 0;
+    width: 100%;
+    color: white;
+    background-color: rgb(31, 30, 30);
+}
+.button a{
+    color: white;
+    font-size: 2em;
+    font-weight:lighter;
+    text-decoration: none;
+
+}
+
