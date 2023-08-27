@@ -4,6 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="resources/style.css">
     <title>Colmar Academy</title>
 </head>
 
@@ -11,57 +12,90 @@
     <div class="header">
         <div class="logo">
             <img src="resources/images/ic-logo.svg" alt="">
-            <h1>Colmar Academy</h1>
+            <h1>ColmarAcademy</h1>
         </div>
-        <nav class="navigation ">
-            <ul>
-                <li><a href="">On campus</a></li>
-                <li><a href="">Online</a></li>
-                <li><a href="">for Companies</a></li>
-                <li><a href="">Sign in</a></li>
-            </ul>
+        <div class="navigation-bar">
+            <nav class="navigation ">
+                <ul>
+                    <li><a href="">On campus</a></li>
+                    <li><a href="">Online</a></li>
+                    <li><a href="">for Companies</a></li>
+                    <li><a href="">Sign in</a></li>
+                </ul>
 
-        </nav>
+            </nav>
+        </div>
     </div>
     <!--  End header -->
     <main class="container">
         <section class="banner">
-            <article class="image">
-                <img src="resources/images/banner.jpg" alt="">
-            </article>
-            <article class="info">
-                <h2>Learn something new everyday</h2>
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
-                <button><a href="">Start here</a></button>
-            </article>
+            <div class="banner-image">
+                <article class="image">
+                    <img src="resources/images/banner.jpg" alt="">
+                </article>
+            </div>
+            <div class="banner-info">
+
+
+                <article class="info">
+                    <h2>Learn something new everyday</h2>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                    <button class="button"><a href="">Start here</a></button>
+                </article>
+            </div>
+
         </section>
         <!-- section banner ends -->
         <section class="information">
-            <article class="information-main">
-                <h2>it doesnt hurt to keep practicing</h2>
-                <p>"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quo, dolorum voluptatem fuga repellendus
-                    quam
-                    quibusdam itaque minus sit, cupiditate vel explicabo reiciendis consequuntur laudantium a aut est
-                    voluptatum animi! Excepturi".</p>
-                <p>
-                    Emmanuel, Sr Strategist at Hiring.com
-                </p>
-            </article>
-            <article class="orientation-date">
-                <img src="resources/images/information-orientation.jpg" alt="">
-                <h3>Orientation Date</h3>
-                <p>Tue 10/11 & Wed 10/12: 8am - 3pm</p>
-                <p><a href="">Read more</a></p>
-            </article>
-            <article class="our-campus">
-                <img src="resources/images/information-campus.jpg" alt="">
-                <h3>Our Campus</h3>
-                <p>Find which campus is close by you</p>
-                <p><a href="">Read more</a></p>
-                <article class="guest-lecture">
-                    <img src="resources/images/information-guest-lecture.jpg" alt="">
-                    <h3>Join an keynote whit Oliver Sack about music in medical treatment</h3>
-                    <p><a href="">Read more</a></p>
+            <div class="information-span">
+                <article class="image">
+                    <img src="resources/images/information-main.jpg" alt="">
+                    <span class="text-info">
+                        <h2>It doesn't hurt to keep practicing</h2>
+                        <p>"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quo, dolorum voluptatem fuga
+                            repellendus
+                            quam
+                            quibusdam itaque minus sit, cupiditate vel explicabo reiciendis consequuntur laudantium a
+                            aut est
+                            voluptatum animi! Excepturi".</p>
+                        <p>
+                            Emmanuel, Sr Strategist at Hiring.com
+                        </p>
+                    </span>
+                </article>
+            </div>
+            <div class="information-data">
+                <article class="orientation-date border box">
+                    <div class="info-img">
+                        <img src="resources/images/information-orientation.jpg" alt="">
+                    </div>
+                    <div class="info-box">
+                        <h3>Orientation Date</h3>
+                        <p>Tue 10/11 & Wed 10/12: 8am - 3pm</p>
+                        <p class="read-more"><a href="">Read more</a></p>
+                    </div>
+                </article>
+                <article class="our-campus border box">
+                    <div class="info-img">
+                        <img src="resources/images/information-campus.jpg" alt="">
+                    </div>
+                    <div class="info-box">
+                        <h3>Our Campus</h3>
+                        <p>Find which campus is close by you</p>
+                        <p class="read-more"><a href="">Read more</a></p>
+                    </div>
+                </article>
+                <article class="guest-lecture border box">
+                    <div class="info-img">
+                        <img src="resources/images/information-guest-lecture.jpg" alt="">
+                    </div>
+                    <div class="info-box">
+                        <h3>Our guest lecture</h3>
+                        <p>Join an keynote whit Oliver Sack about music in medical treatment</p>
+                        <p class="read-more"><a href="">Read more</a></p>
+                    </div>
+            </div>
+            <!-- end information-data -->
         </section>
         <!-- section information ends -->
         <section class="learning">
@@ -126,6 +160,7 @@
 
 
         </section>
+        <!-- secticon thesis ends   -->
         <footer>
             <article class="copyright">
                 <p>&copy; Colmar Academy. All rights reserved</p>
@@ -135,6 +170,7 @@
             </article>
 
         </footer>
+        <!-- footer ends -->
     </main>
 
 </body>
