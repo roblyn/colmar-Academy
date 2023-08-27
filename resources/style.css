@@ -95,11 +95,12 @@ overflow: hidden;
     flex: 60%;
     overflow: hidden;
     padding-right:  24px;
+    margin-top: 32px;
 }
 .information-span img {
     object-fit: cover;
      width: 100%;
-     margin-bottom: 32px;
+     
 }
 .text-info h2{
     margin: 0 0 24px 0;
@@ -112,6 +113,7 @@ overflow: hidden;
     flex-direction: column;
     flex: 40%;
     display: flex;
+    padding-top: 32px;
     
 }
 
@@ -143,6 +145,64 @@ overflow: hidden;
 }
 .guest-lecture {
     background-color: lightgray;
+}
+
+.learning {
+    display: flexbox;
+    background-color: lightgray;
+    text-align: center;
+}
+.learning-title{
+    flex: content;
+    padding: 32px 0 0 0
+}
+.flex-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 32px 72px;
+    
+   
+
+}
+.Software,.computer-art,.design,.data,.business,.marketing {
+    max-width: 30%;
+    background-color: white;
+    overflow: hidden;
+    margin-bottom: 32px;
+    text-align: start;
+    
+}
+
+.learning img{
+    height: auto;
+    width:100%;
+}
+.learning h3{
+    padding: 8px 0 0 16px;
+    font-size: 1.8em;
+}
+.learning p {
+    padding:8px 0 24px 16px;
+    font-size: 1.3em;
+    font-weight: lighter;
+    color:gray;
+}
+.thesis{
+    display: flex;
+    flex-direction: column;
+}
+.thesis-title{
+    text-align: center;
+}
+.thesis-video{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.video{
+    width: 100%;
+    height: auto;
 }
 
 
