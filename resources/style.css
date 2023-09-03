@@ -311,7 +311,9 @@ p {
 }
 
 @media only screen and (min-width: 320px) and (max-width: 576px) {
- 
+ .img-mobile{
+    display: flex;
+ }
     .logo {
         display: none;
     }
