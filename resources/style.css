@@ -13,7 +13,33 @@ h3 {
     font-size: 2em;
     color: rgb(70, 69, 69);
 }
+/* Genereal styles */
+.border {
+    border-style: solid;
+    border-width: 2px;
+    padding: 16px;
+    border-color: lightgray;
 
+}
+
+.box {
+    display: flex;
+    flex-direction: row;
+}
+
+.box img {
+    height: auto;
+}
+
+.read-more a {
+    font-size: 1.2em;
+    color: rgb(47, 70, 242);
+    text-decoration: none;
+}
+.img-mobile {
+    display: none;
+}
+/* general Styles end */
 .header {
     display: flex;
     align-items: center;
@@ -284,7 +310,8 @@ p {
     justify-content: space-between;
 }
 
-@media only screen and (max-width: 1024px) {
+@media only screen and (min-width: 320px) and (max-width: 576px) {
+ 
     .logo {
         display: none;
     }
@@ -295,41 +322,82 @@ p {
     .navigation {
         display: none;
     }
+    .navigation-bar {
+       width: 100%;
+    }
 
     .mobile {
-        display: 100%;
+        display: flex;
         align-items: center;
         justify-content: space-around;
+        text-align: center;
     }
     .mobile ul {
         text-decoration: none;
         list-style: none;
+        padding: 0;
+        
     }
-
-
+.banner {
+    display: block;
+    padding: 0;
 }
-
-
-/* Genereal styles */
-.border {
-    border-style: solid;
-    border-width: 2px;
+.banner-info {
     padding: 16px;
-    border-color: lightgray;
-
 }
-
-.box {
+.information-span{
+    display: none;
+}
+.information {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
+    padding: 16px;
+}
+.box {
+    flex-direction: column;
+}
+.img-desktop {
+    display: none;
+}
+.border {
+    border-style:none;
+    
+}
+.guest-lecture {
+    background-color: white;
+}
+.learning {
+    background-color: white;
+}
+.flex-container {
+        display: flex;
+        flex-direction: column;
+        margin: 32px 16px;
+}
+.Software,
+.computer-art,
+.design,
+.data,
+.business,
+.marketing {
+    max-width: 100%;
+    background-color:lightgrey;
+    margin-bottom: 8px;
+}
+.Software p,
+.computer-art p,
+.design p,
+.data p,
+.business p,
+.marketing p {
+   display: none;
+}
+.fisma-now {
+    display: none;
+}
+.thesis{
+    padding: 0;
+}
 }
 
-.box img {
-    height: auto;
-}
 
-.read-more a {
-    font-size: 1.2em;
-    color: rgb(47, 70, 242);
-    text-decoration: none;
-}
