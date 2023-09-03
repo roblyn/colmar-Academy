@@ -1,126 +1,150 @@
 body {
-    margin:auto 0;
+    margin: auto 0;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-h2{
+
+h2 {
     color: rgb(45, 42, 42);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 3em;
 }
+
 h3 {
     font-size: 2em;
     color: rgb(70, 69, 69);
 }
-.header{
+
+.header {
     display: flex;
     align-items: center;
     height: 64px;
-   
-   
+
+
 }
+
 .logo {
     flex: 50%;
-   display: flex;
-   margin-left:24px;
+    display: flex;
+    margin-left: 24px;
 }
 
-.navigation{
+.mobile {
+    display: none;
+}
+
+.navigation {
     flex: 50%;
 
 }
+
 .navigation li a {
     text-decoration: none;
     font-size: 1.2em;
-    color:gray ;
+    color: gray;
     font-weight: 600;
-  
-    
+
+
 }
+
 .navigation ul {
     display: flex;
-    text-decoration: none;  
-    list-style:none;
-    padding:0 16px 0 0;
+    text-decoration: none;
+    list-style: none;
+    padding: 0 16px 0 0;
     margin-right: 8px;
 }
+
 .navigation li {
     margin: 0 16px;
 }
 
-.banner{
+.banner {
     background-color: lightgray;
     padding: 32px 24px;
     display: flex;
     align-items: center;
 
 }
+
 .banner-image {
-flex: 60%;
-overflow: hidden;
+    flex: 60%;
+    overflow: hidden;
 
 }
-.banner-image img{
-   object-fit: cover;
-   width: 100%;
-    }
-.banner-info{
+
+.banner-image img {
+    object-fit: cover;
+    width: 100%;
+}
+
+.banner-info {
     flex: 40%;
-    overflow: hidden; 
-     padding-left: 24px;
+    overflow: hidden;
+    padding-left: 24px;
 }
 
 .info p {
     font-size: 1.5em;
-    font-weight:lighter;
+    font-weight: lighter;
     color: rgb(73, 72, 72);
 }
+
 .button {
     padding: 8px 0;
     width: 100%;
     color: white;
     background-color: rgb(31, 30, 30);
 }
-.button a{
+
+.button a {
     color: white;
     font-size: 2em;
-    font-weight:lighter;
+    font-weight: lighter;
     text-decoration: none;
 
 }
- .information, .thesis{
-    display:flex;
+
+.information,
+.thesis {
+    display: flex;
     padding: 32px 24px;
-} 
-.information-span{
+}
+
+.information-span {
     flex: 60%;
     overflow: hidden;
-    padding-right:  24px;
+    padding-right: 24px;
     margin-top: 32px;
 }
+
 .information-span img {
     object-fit: cover;
-     width: 100%;
-     
+    width: 100%;
+
 }
-.text-info h2{
+
+.text-info h2 {
     margin: 0 0 24px 0;
-    font-size: 2.6em  
+    font-size: 2.6em
 }
+
 .text-info p {
     padding: 0 0 32px 0;
 }
-.information-data{
+
+.information-data {
     flex-direction: column;
     flex: 40%;
     display: flex;
     padding-top: 32px;
-    
+
 }
 
 .orientation-date h3 {
-   display: block;
+    display: block;
 }
-.info-img{
+
+.info-img {
     flex: 35%;
 }
 
@@ -129,20 +153,24 @@ overflow: hidden;
     height: auto;
 }
 
-.info-box{
+.info-box {
     flex: 65%;
     text-align: start;
     padding-left: 16px;
 }
+
 .info-box p {
     font-weight: 500;
     color: rgb(82, 80, 80);
     font-size: 1.1em;
 }
-.info-box h3, p {
+
+.info-box h3,
+p {
     margin: 0;
     padding: 8px;
 }
+
 .guest-lecture {
     background-color: lightgray;
 }
@@ -152,117 +180,156 @@ overflow: hidden;
     background-color: lightgray;
     text-align: center;
 }
-.learning-title{
+
+.learning-title {
     flex: content;
     padding: 32px 0 0 0
 }
-.flex-container{
+
+.flex-container {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
     margin: 32px 72px;
-    
-   
+
 
 }
-.Software,.computer-art,.design,.data,.business,.marketing {
+
+.Software,
+.computer-art,
+.design,
+.data,
+.business,
+.marketing {
     max-width: 30%;
     background-color: white;
     overflow: hidden;
     margin-bottom: 32px;
     text-align: start;
-    
+
 }
 
-.learning img{
+.learning img {
     height: auto;
-    width:100%;
+    width: 100%;
 }
-.learning h3{
+
+.learning h3 {
     padding: 8px 0 0 16px;
     font-size: 1.8em;
 }
+
 .learning p {
-    padding:8px 0 24px 16px;
+    padding: 8px 0 24px 16px;
     font-size: 1.3em;
     font-weight: lighter;
-    color:gray;
+    color: gray;
 }
 
-.thesis-title{
+.thesis-title {
     text-align: center;
 }
-.thesis{
+
+.thesis {
     margin: 32px 0;
 }
-.thesis-video{
+
+.thesis-video {
     flex: 60%;
     overflow: hidden;
     padding: 0 24px;
-    
+
 }
-.video{
+
+.video {
     width: 100%;
     height: auto;
-    
+
 }
-.fisma-now{
+
+.fisma-now {
     flex: 40%;
 }
 
-.fisma{
+.fisma {
     display: flex;
     flex-direction: row;
     background-color: lightgray;
     padding: 16px;
-    
+
 }
-.fisma-img, .now-img{
+
+.fisma-img,
+.now-img {
     flex: 35%;
     height: auto;
     overflow: hidden;
     object-fit: cover;
     margin-right: 16px;
 }
-.fisma-info, .now-info{
+
+.fisma-info,
+.now-info {
     flex: 65%;
-} 
-.now-and-then{
+}
+
+.now-and-then {
     display: flex;
     margin-top: 16px;
-    
+
 }
+
 .footer {
     display: flex;
     justify-content: space-between;
 }
 
-@media only screen and (min-width: 320px) and (max-width: 576px) {
-  
-  }
+@media only screen and (max-width: 1024px) {
+    .logo {
+        display: none;
+    }
+    .navigation-bar{
+        display: block;
+    }
+
+    .navigation {
+        display: none;
+    }
+
+    .mobile {
+        display: 100%;
+        align-items: center;
+        justify-content: space-around;
+    }
+    .mobile ul {
+        text-decoration: none;
+        list-style: none;
+    }
+
+
+}
 
 
 /* Genereal styles */
 .border {
-    border-style:solid;
+    border-style: solid;
     border-width: 2px;
-   padding: 16px;
-   border-color: lightgray;
+    padding: 16px;
+    border-color: lightgray;
 
 }
-.box{
+
+.box {
     display: flex;
     flex-direction: row;
 }
+
 .box img {
     height: auto;
 }
+
 .read-more a {
     font-size: 1.2em;
     color: rgb(47, 70, 242);
     text-decoration: none;
 }
-
-
-
-
